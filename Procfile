@@ -1,1 +1,1 @@
-web:gunicorn line_bot.py:app --log-file=-
+web:gunicorn line_bot:app --log-file=-
